@@ -22,3 +22,6 @@ build-backend = "hatchling.build"
 [tool.crewai]
 type = "crew"
 project_id = "62116125-d747-49ea-9b63-285473cf9659"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/crew_deploy"]
